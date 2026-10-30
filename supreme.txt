@@ -10,6 +10,10 @@ class DemoClass implements FirstInterface, SecondInterface {
   public void myMethod() {
     System.out.println("Some text..");
   }
+
+  public void newmethod(){
+    System.out.println("code some added here)
+  }
   
   public void myOtherMethod() {
 	System.out.println("Some other text...");
