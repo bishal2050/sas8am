@@ -6,6 +6,13 @@ interface SecondInterface {
   public void myOtherMethod(); // interface method
 }
 
+New line of changes will be added here
+class NewClass {
+  public void newmethod(){
+	System.out.println("code some added here");
+  }
+}
+
 class DemoClass implements FirstInterface, SecondInterface {
   public void myMethod() {
     System.out.println("Some text..");
